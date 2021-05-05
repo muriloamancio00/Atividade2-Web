@@ -18,7 +18,7 @@ a {
   color: #004d00;
 }
 
-                  .container {
+                          .container {
   background-color: #e9ffea;
   width: 940px;
   margin-right: auto;
@@ -27,13 +27,13 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-                .cabecalho,
-.rodape {
+          .cabecalho,
+          .rodape {
   width: 100%;
   display: flex;
   align-items: center;
 }
-.cabecalho {
+                            .cabecalho {
   order: 1;
   border-bottom: 1px solid #000000;
   padding: 10px;
@@ -53,70 +53,12 @@ a {
   font-size: 160%;
   color: #008903;
 }
-.corpo {
-  width: 75%;
-  order: 2;
-  border-right: 1px dashed #000000;
-  padding: 10px;
-  flex-direction: column;
-}
-
-.menu {
+                                .menu {
   width: 25%;
   order: 3;
   padding: 5px;
   font-size: 110%;
 }
-.rodape {
-  order: 4;
-  border-top: 1px solid #000000;
-  padding: 30px;
-  margin-top: 20px;
-}
-
-
-
-
-
-.rodape img {
-  width: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.rodape .autor {
-  font-weight: bold;
-  color: #7e0000;
-}
-
-.corpo p {
-  text-align: justify;
-  line-height: 150%;
-  text-indent: 3em;
-}
-
-.corpo h3 {
-  text-transform: uppercase;
-  font-size: 110%;
-  font-weight: bold;
-  border-bottom: 1px dotted #000000;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  width: 50%;
-  background: url("imagens/seta.png") no-repeat 0 center;
-}
-
-.corpo img {
-  float: left;
-  margin: 10px;
-  width: 230px;
-}
-
-.corpo img.secundaria {
-  float: right;
-  width: 180px;
-}
-
 .menu h3 {
   padding: 5px;
   font-weight: bold;
@@ -146,4 +88,74 @@ a {
 
 .menu li a:hover {
   background-color: #02d700;
+}
+                              .corpo {
+  width: 75%;
+  order: 2;
+  border-right: 1px dashed #000000;
+  padding: 10px;
+  flex-direction: column;
+}
+.corpo p {
+  text-align: justify;
+  line-height: 150%;
+  text-indent: 3em;
+}
+.corpo h3 {
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: bold;
+  border-bottom: 1px dotted #000000;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 50%;
+  background: url("imagens/seta.png") no-repeat 0 center;
+}
+
+.corpo img {
+  float: left;
+  margin: 10px;
+  /width: 230px; 
+}
+
+.corpo img.secundaria {
+  float: right;
+  width: 180px;
+}
+#corp-loc h4{
+  color: #504e4e;
+  font-weight: bold;
+  text-indent: 2em;
+  line-height: 150%;
+  font-size: 110%;
+}
+#corp-loc ul{
+  width: 75%;
+  line-height: 150%;
+  padding: 10px;
+  flex-direction:column;
+}
+#loc-pgua{
+  float: right;
+  height: 180px;
+}
+
+
+
+                                .rodape {
+  order: 4;
+  border-top: 1px solid #000000;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.rodape img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.rodape .autor {
+  font-weight: bold;
+  color: #7e0000;
 }
