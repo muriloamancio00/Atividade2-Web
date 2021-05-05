@@ -78,7 +78,6 @@ a {
 .menu li:first-of-type {
   border-top: 1px solid #4ea947;
 }
-
 .menu li a {
   padding: 20px;
   display: block;
@@ -111,38 +110,17 @@ a {
   width: 50%;
   background: url("imagens/seta.png") no-repeat 0 center;
 }
-
 .corpo img {
   float: left;
   margin: 10px;
-  /width: 230px; 
+  width: 230px; 
 }
 
 .corpo img.secundaria {
   float: right;
   width: 180px;
 }
-#corp-loc h4{
-  color: #504e4e;
-  font-weight: bold;
-  text-indent: 2em;
-  line-height: 150%;
-  font-size: 110%;
-}
-#corp-loc ul{
-  width: 75%;
-  line-height: 150%;
-  padding: 10px;
-  flex-direction:column;
-}
-#loc-pgua{
-  float: right;
-  height: 180px;
-}
-
-
-
-                                .rodape {
+.rodape {
   order: 4;
   border-top: 1px solid #000000;
   padding: 30px;
@@ -158,4 +136,50 @@ a {
 .rodape .autor {
   font-weight: bold;
   color: #7e0000;
+}
+#corpo-curso h4{
+  color: #504e4e;
+  font-weight: bold;
+  text-indent: 2em;
+  line-height: 150%;
+  font-size: 110%;
+  text-align: justify;
+}
+#corpo-curso ul{
+  width: 75%;
+  text-align: justify;
+  line-height: 150%;
+  padding: 10px;
+  flex-direction:column;
+}
+#corpo-estrutura h4{
+  line-height: 100%;
+  font-weight: bold;
+  text-indent: 2em
+}
+#corpo-estrutura ul{
+  line-height: 180%;
+  padding: 8px;
+}
+#fot1-loc{
+  float: right;
+  height: 180px;
+}
+#fot2-loc{
+  width: 670px;
+}
+/* #foto3-loc{
+  display: flex; flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+} */
+#fot3-loc img{
+  margin-right: 20px;
+  width: 510px; 
+}
+.negrito{
+  font-weight: bold;
+  text-align: justify;
+  line-height: 150%;
 }
