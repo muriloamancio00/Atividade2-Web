@@ -18,7 +18,7 @@ a {
   color: #004d00;
 }
 
-                          .container {
+.container {
   background-color: #e9ffea;
   width: 940px;
   margin-right: auto;
@@ -27,13 +27,13 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-          .cabecalho,
-          .rodape {
+.cabecalho,
+.rodape {
   width: 100%;
   display: flex;
   align-items: center;
 }
-                            .cabecalho {
+.cabecalho {
   order: 1;
   border-bottom: 1px solid #000000;
   padding: 10px;
@@ -53,7 +53,7 @@ a {
   font-size: 160%;
   color: #008903;
 }
-                                .menu {
+.menu {
   width: 25%;
   order: 3;
   padding: 5px;
@@ -88,7 +88,7 @@ a {
 .menu li a:hover {
   background-color: #02d700;
 }
-                              .corpo {
+.corpo {
   width: 75%;
   order: 2;
   border-right: 1px dashed #000000;
@@ -113,7 +113,7 @@ a {
 .corpo img {
   float: left;
   margin: 10px;
-  width: 230px; 
+  width: 230px;
 }
 
 .corpo img.secundaria {
@@ -126,18 +126,16 @@ a {
   padding: 30px;
   margin-top: 20px;
 }
-
 .rodape img {
   width: 100px;
   border-radius: 50%;
   margin-right: 20px;
 }
-
 .rodape .autor {
   font-weight: bold;
   color: #7e0000;
 }
-#corpo-curso h4{
+#corpo-curso h4 {
   color: #504e4e;
   font-weight: bold;
   text-indent: 2em;
@@ -145,27 +143,28 @@ a {
   font-size: 110%;
   text-align: justify;
 }
-#corpo-curso ul{
+#corpo-curso ul {
   width: 75%;
   text-align: justify;
   line-height: 150%;
   padding: 10px;
-  flex-direction:column;
+  flex-direction: column;
 }
-#corpo-estrutura h4{
+#corpo-estrutura h4 {
   line-height: 100%;
   font-weight: bold;
-  text-indent: 2em
+  text-indent: 2em;
 }
-#corpo-estrutura ul{
+
+#corpo-estrutura ul {
   line-height: 180%;
   padding: 8px;
 }
-#fot1-loc{
+#fot1-loc {
   float: right;
   height: 180px;
 }
-#fot2-loc{
+#fot2-loc {
   width: 670px;
 }
 /* #foto3-loc{
@@ -174,11 +173,11 @@ a {
   justify-content: center;
   align-items: center;
 } */
-#fot3-loc img{
+#fot3-loc img {
   margin-right: 20px;
-  width: 510px; 
+  width: 510px;
 }
-.negrito{
+.negrito {
   font-weight: bold;
   text-align: justify;
   line-height: 150%;
