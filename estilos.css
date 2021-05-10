@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   overflow-y: scroll;
 }
@@ -135,23 +134,7 @@ a {
   font-weight: bold;
   color: #7e0000;
 }
-#corpo-curso h4 {
-  color: #cccccc;
-  border-style: inset ;
-  border-right-style: double;
-  border-width: 5px 11px 9px 15px;
-  border-color: #919191 #999999 ;
-  border-radius: 50px;
-  margin-left: 70px;
-  margin-top: 20px;
-  font-weight: bold;
-  text-indent: 3em;
-  line-height: 150%;
-  font-size: 110%;
-  text-align: justify;
-  width: 80%;
-  text-shadow: 1px 1px 1px black,-1px 1px 1px black,1px -1px 1px black,-1px -1px 1px black;
-}
+
 #corpo-curso ul {
   width: 75%;
   text-align: justify;
@@ -161,7 +144,6 @@ a {
   flex-direction: column;
 }
 #corpo-estrutura h4 {
-  
   line-height: 100%;
   font-weight: bold;
   text-indent: 2em;
@@ -177,35 +159,59 @@ a {
 #fot2-loc {
   width: 670px;
 }
- #fot3-loc{
-  display: flex; flex-direction: row;
+#fot3-loc {
+  display: flex;
+  flex-direction: row;
   align-content: center;
   justify-content: center;
   align-items: center;
-} 
+}
 #fot3-loc img {
   margin-right: 20px;
   width: 510px;
 }
-#p-itens{
+#p-itens {
   text-align: justify;
   line-height: 150%;
 }
-.diretor-geral{
+#corpo-curso h4 {
+  color: #cccccc;
+  border-style: inset;
+  border-right-style: double;
+  border-width: 5px 11px 9px 15px;
+  border-color: #919191 #999999;
+  border-radius: 50px;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-indent: 3em;
+  line-height: 150%;
+  font-size: 110%;
+  text-align: justify;
+  width: 80%;
+  text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
+    -1px -1px 1px black;
+}
+.corpo-novidade h4{
+line-height: 110%;
+margin-left: auto;
+
+}
+.diretor-geral {
   width: 100px;
   display: flex;
 }
-.itens{
+.itens {
   display: flex;
 }
-.imagens-zanata{
+.imagens-zanata {
   display: flex;
   flex-direction: column;
 }
-.diretor-geral{
+.diretor-geral {
   line-height: 300%;
 }
-.diretor-geral img{
+.diretor-geral img {
   line-height: 180%;
   width: 100px;
   border-radius: 50%;
@@ -216,4 +222,37 @@ a {
   text-align: justify;
   line-height: 150%;
 }
+.informacao li{
+  background: url("imagens/whatsapp-16px.png") no-repeat right top ;
+  /* background-position: 30%; */
+}
+#inf1{
+  background-position: 41%;
+}
+#inf2{
+  background-position: 26%;
+}
+#inf3{
+  background-position: 21%;
+}
+#inf4{
+  background-position: 23%;
+}
+#inf5{
+  background-position: 30%;
+}
+#inf6{
+  background-position: 44%;
+}
+#inf7{
+  background-position: 35%;
+}
+#inf8{
+  background-position: 16%;
+}
+#inf9{
+  background-position: 37%;
+}
+
+  
 
