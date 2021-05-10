@@ -175,22 +175,43 @@ a {
   line-height: 150%;
 }
 #corpo-curso h4 {
-  color: #cccccc;
+  color: #6fee3ddc;
   border-style: inset;
   border-right-style: double;
   border-width: 5px 11px 9px 15px;
   border-color: #919191 #999999;
+  border-bottom: 5px inset #01c0a6 ;
   border-radius: 50px;
   margin-left: 70px;
   margin-top: 20px;
   font-weight: bold;
   text-indent: 3em;
   line-height: 150%;
-  font-size: 110%;
+  font-size: 130%;
   text-align: justify;
   width: 80%;
   text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
     -1px -1px 1px black;
+}
+#faixa-longa{
+  color: #6fee3ddc;
+  border-style:inset;
+  border-right-style: double;
+  border-width: 5px 11px 9px 15px;
+  border-color: #919191 #999999;
+  border-bottom: 5px inset #01c0a6 ;
+  border-radius: 40px;
+  font-size:80px ;
+  padding-top: 30px;
+  padding-right: 450px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  margin: 20px 360px 20px 100px;
+  text-indent: 20px;
+  font-weight: bold;
+    width: 80%;
+  text-shadow: 3px 3px 3px black, -3px 3px 3px black, 3px -3px 3px black,
+    -3px -3px 3px black;
 }
 .corpo-novidade h4 {
   line-height: 110%;
@@ -223,6 +244,22 @@ a {
 }
 .informacao li {
   background: url("imagens/whatsapp-16px.png") no-repeat right top;
+}
+.corpo-novidade h4{
+  line-height: 30px;
+}
+.informacao a:link, a:visited{
+  color: #007bff;
+  padding: 9px 12px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+}
+.informacao a:hover, a:active{
+  background-color: #4aa127;
+  color: rgb(7, 7, 7);
+  font-size: 150%;
+  border-radius: 80%;
 }
 #inf1 {
   background-position: 41%;
