@@ -248,6 +248,13 @@ a {
 .corpo-novidade h4{
   line-height: 30px;
 }
+.sub-top{
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.sub-top h6{
+  color: rgb(197, 49, 49);
+}
 .informacao a:link, a:visited{
   color: #007bff;
   padding: 9px 12px;
