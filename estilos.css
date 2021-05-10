@@ -192,10 +192,9 @@ a {
   text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
     -1px -1px 1px black;
 }
-.corpo-novidade h4{
-line-height: 110%;
-margin-left: auto;
-
+.corpo-novidade h4 {
+  line-height: 110%;
+  margin-left: auto;
 }
 .diretor-geral {
   width: 100px;
@@ -222,37 +221,69 @@ margin-left: auto;
   text-align: justify;
   line-height: 150%;
 }
-.informacao li{
-  background: url("imagens/whatsapp-16px.png") no-repeat right top ;
-  /* background-position: 30%; */
+.informacao li {
+  background: url("imagens/whatsapp-16px.png") no-repeat right top;
 }
-#inf1{
+#inf1 {
   background-position: 41%;
 }
-#inf2{
+#inf1 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf2 {
   background-position: 26%;
 }
-#inf3{
+#inf2 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf3 {
   background-position: 21%;
 }
-#inf4{
+#inf3 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf4 {
   background-position: 23%;
 }
-#inf5{
+#inf4 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf5 {
   background-position: 30%;
 }
-#inf6{
+#inf5 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf6 {
   background-position: 44%;
 }
-#inf7{
+#inf6 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf7 {
   background-position: 35%;
 }
-#inf8{
+#inf7 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf8 {
   background-position: 16%;
 }
-#inf9{
+#inf8 span {
+  margin: 22px;
+  color: #007bff;
+}
+#inf9 {
   background-position: 37%;
 }
-
-  
-
+#inf9 span {
+  margin: 22px;
+  color: #007bff;
+}
