@@ -136,21 +136,32 @@ a {
   color: #7e0000;
 }
 #corpo-curso h4 {
-  color: #504e4e;
+  color: #cccccc;
+  border-style: inset ;
+  border-right-style: double;
+  border-width: 5px 11px 9px 15px;
+  border-color: #919191 #999999 ;
+  border-radius: 50px;
+  margin-left: 70px;
+  margin-top: 20px;
   font-weight: bold;
-  text-indent: 2em;
+  text-indent: 3em;
   line-height: 150%;
   font-size: 110%;
   text-align: justify;
+  width: 80%;
+  text-shadow: 1px 1px 1px black,-1px 1px 1px black,1px -1px 1px black,-1px -1px 1px black;
 }
 #corpo-curso ul {
   width: 75%;
   text-align: justify;
   line-height: 150%;
   padding: 10px;
+  text-indent: 2em;
   flex-direction: column;
 }
 #corpo-estrutura h4 {
+  
   line-height: 100%;
   font-weight: bold;
   text-indent: 2em;
