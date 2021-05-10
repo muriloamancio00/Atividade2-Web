@@ -194,12 +194,12 @@ a {
     -1px -1px 1px black;
 }
 #faixa-longa{
-  color: #6fee3ddc;
+  color: #e7f52bef;
   border-style:inset;
   border-right-style: double;
   border-width: 5px 11px 9px 15px;
   border-color: #919191 #999999;
-  border-bottom: 5px inset #01c0a6 ;
+  border-bottom: 5px inset #c0016a ;
   border-radius: 40px;
   font-size:80px ;
   padding-top: 30px;
@@ -207,9 +207,9 @@ a {
   padding-bottom: 25px;
   padding-left: 50px;
   margin: 20px 360px 20px 100px;
-  text-indent: 20px;
+  text-indent: 90px;
   font-weight: bold;
-    width: 80%;
+  width: 80%;
   text-shadow: 3px 3px 3px black, -3px 3px 3px black, 3px -3px 3px black,
     -3px -3px 3px black;
 }
@@ -262,7 +262,7 @@ margin-bottom: 10px;
   text-decoration:none;
   display: inline-block;
 }
-.informacao a:hover, a:active{
+.informacao a:hover, .informacao a:active{
   background-color: #4aa127;
   color: rgb(7, 7, 7);
   font-size: 150%;
@@ -270,7 +270,7 @@ margin-bottom: 10px;
 }
 .galeria{
   margin: 22px;
-  border: 3px solid #ccc;
+  border: 3px solid rgb(110, 46, 46);
   border-radius: 10%;
   float: left;
   width: 180px;
@@ -280,7 +280,7 @@ margin-bottom: 10px;
   height: auto;
 }
 .galeria:hover{
-  border: 1px solid #777
+  border: 5px solid #c0016a
   
 }
 .galeria-desc{
